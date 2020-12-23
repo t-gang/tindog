@@ -1,0 +1,168 @@
+body{
+    font-family:"Montserrat" ;
+}
+
+
+ /* Navbarr */
+ .container-fluid{
+    padding: 3% 15%;
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+.navbar{
+    padding:0 4.5rem 0 0;
+    margin-bottom: 3rem;
+}
+.btn{
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.btn-pro{
+    align-items: left;
+    /* margin: 2rem 2rem 1rem; */
+}
+.nav-item{
+    padding-bottom: 0 10px;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: lighter;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: "ubuntu";
+    font-weight: bold;
+
+}
+
+/* title */
+
+.title-img{
+    transform: rotate(20deg);
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    position: absolute;
+}
+#title{
+    /* position: absolute; */
+    background-color: #ff4c68;
+}
+
+
+/* feature */
+
+div i:hover{
+  color: #d41f3a;
+}
+h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+    
+}
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.featin{
+    /* padding: 5rem 5rem; */
+    text-align: center;
+}
+.fas{
+    color: tomato;
+    margin:auto auto;
+}
+
+
+
+/* press */
+
+#press{
+    background-color: rgb(233, 120, 101);
+    text-align: center;
+    padding-bottom: 3%;
+
+ }
+ .row{
+     margin-top: 45px;
+ }
+ .press-img{
+     width: 15%;
+     margin: 20px 20px 20px 50px;
+ }
+
+
+ /* pricing */
+
+#pricing{
+    /* padding:100px; */
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+   /* text-align: */
+}
+
+.price-card{
+    padding: 20px;
+}
+
+
+/* testimonial */
+
+#testimonials{
+  
+    text-align: center;
+    background-color: rgb(233, 120, 101);
+    color: white;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 200%;
+    margin: 20px;
+
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/* call to action */
+
+.calling{
+    background-color: #ff4c68;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 50px;
+  
+}
+a i{
+    margin: 0 1rem;
+    color: black;
+}
+
+/* responsiveness */
+@media (max-width: 1000px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        margin-right: 3rem;
+    }
+    #title{
+        text-align: center;
+    }
+ }
